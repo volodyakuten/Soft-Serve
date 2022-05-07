@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+                  
+<header>
+    <img src="img/logo.png" alt="Soft Serve LOGO">
+    <h1>Basic HTML and CSS</h1>
+</header>
+
+<nav id="mainNav">
+    <a href="">Головна</a>
+    <a href="#2">Заголовки</a>
+    <a href="#3">Табличка</a>
+    <a href="#4">Списки</a>
+    <a href="#5">Текст</a>
+    <a href="#6">Цитатка</a>
+    <a href="#7">Форма</a>
+</nav>
+
+<hr>
+
+
+<center><b>Стандартне форматування тексту</b></center>
+<p>
+<b>Lorem ipsum dolor</b> <u>sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</u> <mark>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </mark><s>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</s>
+<b>Fruit sugar</b>, is a simple
+<p>
+<i>ketonic monosaccharide</i> found in many plants, where it is often bonded to glucose to form the disaccharide sucrose.
+It is one of the three dietary
+<u>monosaccharides</u>, along with glucose and galactose, that are absorbed directly into blood during digestion.
+Its formula is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and its density is 1.694 g/cm3 .
+Fructose was discovered by French chemist
+<a href="">Augustin-Pierre Dubrunfaut</a> in
+<mark>1847</mark>, <s>not in 1846</s>.
+<p>
+
+<p>Наведи курсор <b><abbr title="Hello im from Ukraine :)">сюда</abbr></b>
+
+<hr>
+
+<center><b><p id="2">Заголовки</p></b></center>
+
+<h2>Заголовок 2</h2>
+<h3>Заголовок 3</h3>
+<h4>Заголовок 4</h4>
+<h5>Заголовок 5</h5>
+<h6>Заголовок 6</h6>
+
+<hr>
+
+<center><b><p  id="3">Табличка</p></b></center>
+<table>
+	<tbody>
+		<tr>
+			<td>Назва</td>
+			<td>Ціна</td>
+			<td>Кількість</td>
+		</tr>
+		<tr>
+			<td>Яблуко</td>
+			<td>5</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Банан</td>
+			<td>10</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>Морква</td>
+			<td>8</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td>Капуста</td>
+			<td>11</td>
+			<td>1</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<center><b><p  id="4">Списки</p></b></center>
+<ul>
+    <li>Фрукти
+        <ul>
+            <li>Банани</li>
+            <li>Яблука</li>
+            <li>Вишні</li>
+        </ul>
+    </li>
+    <li>Овочі
+        <ul>
+            <li>Морква</li>
+            <li>Картопля</li>
+            <li>Капуста</li>
+        </ul>
+    </li>
+    <li>Молоко</li>
+    <li>Вода</li>
+</ul>
+
+<ol>
+<li>Перед прийомом їди треба помити руки</li>
+<li>Після прийому прибрати</li>
+<li>Домашнє завдання:
+    <ol> 
+        <li>Створити HTML сторінку</li> 
+        <li>Загрузити на Git Hub</li> 
+        <li>Скинути посилання в табличку</li> 
+    </ol>
+</li>
+</ol>
+
+
+<dl>
+    <dt>HTML</dt>
+        <dd>Cтандартизована мова розмітки документів для перегляду веб-сторінок у браузері.</dd>
+    <dt>CSS</dt>
+        <dd>Cпеціальна мова стилю сторінок, що використовується для опису їхнього зовнішнього вигляду.</dd>
+    <dt>JavaScript</dt>
+        <dd>Динамічна, об'єктно-орієнтована прототипна мова програмування</dd>
+</dl>
+
+<hr>
+
+<center><b><p id="5">Формат тексту</p></b></center>
+
+<pre>Текст в тегу <b>pre</b> відображається
+з фіксованою шириною шрифта
+Він зберігає обидва простір
+та всі розриви і <b>пробіли</b>
+ </pre>
+
+
+<pre>
+    <code>
+  А тут ми закоментувати CSS код :)
+
+  .flex {
+  display: flex;
+  justify-content: justify;
+  aliign-items: center;
+}
+    </code>
+</pre>
+
+<!-- В HTML5 тег center не підтримується, слід використовувати CSS: text-align -->
+
+<center><b><p  id="6">Цитатка</p></b></center>
+<blockquote>"Працюємо, щоб мати вільний час, і воюємо, щоб жити мирно."
+<p><a href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%82%D0%B5%D0%BB%D1%8C">Арістотель</a></p>
+</blockquote>
+
+<hr>
+<center><b><p  id="7">Форма</p></b></center>
+<form   >
+
+    <div>
+        <label>Ім'я:</label>
+        <input type="text" />
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" />
+    </div>
+
+    <div>
+        <label>Пароль:</label>
+        <input type="password" />
+    </div>
+
+    <div>
+        <label>Виберіть мову програмування</label>
+        <select name="select">
+            <option>JavaScript</option>
+            <option>.Net</option>
+            <option>Java</option>
+        </select>
+    </div>
+
+    <div>
+        <textarea cols="23" rows="4"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+
+</form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, code, img, s, sub, b, u, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, tr, td {
+    background: transparent;
+    border: 0;
+
+    vertical-align: baseline
+}
+body {
+    line-height: 1
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-weight: normal
+}
+ol, ul {
+    list-style: none
+}
+blockquote {
+    quotes: none
+}
+blockquote:before, blockquote:after {
+    content: '';
+    content: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%
+}
+
+#mainNav a { 
+    margin-left: 5%;
+}
+
+nav>a {
+    color: #da0000 !important ;
+ 
+}
+nav>a:visited {
+    color: #800000 !important ;
+}
+
+body, input, textarea {
+    font-family: Georgia, "Bitstream Charter", serif
+}
+pre {
+    font-family: "Courier 10 Pitch", Courier, monospace
+}
+code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace
+}
+#main, #wrapper {
+    margin: 0 auto;
+    width: 1000px
+}
+#wrapper {
+    background: #fff;
+    margin-top: 20px;
+    padding: 0 20px
+}
+body {
+    background: #f1f1f1
+}
+body, input, textarea {
+    color: #666;
+    font-size: 12px;
+    line-height: 18px
+}
+hr {
+    background-color: #e7e7e7;
+    border: 0;
+    clear: both;
+    height: 1px;
+    margin-bottom: 18px
+}
+p {
+    margin-bottom: 18px
+}
+ul {
+    list-style: square;
+    margin: 0 0 18px 1.5em
+}
+ol {
+    list-style: decimal;
+    margin: 0 0 18px 1.5em
+}
+ol ol {
+    list-style: upper-alpha
+}
+ul ul, ol ol {
+    margin-bottom: 0
+}
+dl {
+    margin: 0 0 24px 0
+}
+dt {
+    font-weight: bold
+}
+dd {
+    margin-bottom: 18px
+}
+i {
+    font-style: italic
+}
+blockquote {
+    font-style: italic;
+    padding: 0 3em
+}
+pre {
+    background: #f7f7f7;
+    color: #222;
+    line-height: 18px;
+    margin-bottom: 18px;
+    overflow: auto;
+    padding: 1.5em
+}
+abbr {
+    cursor: help
+}
+sub {
+    height: 0;
+    line-height: 1;
+    position: relative;
+    vertical-align: baseline
+}
+sub {
+    top: .5ex
+}
+input {
+    margin-bottom: 10px
+}
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 2px
+}
+a:link {
+    color: #06c
+}
+a:visited {
+    color: #743399
+}
+a:active, a:hover {
+    color: #ff4b33
+}
+#main {
+    clear: both;
+    overflow: hidden;
+    padding: 40px 0 0 0
+}
+#content {
+    margin-bottom: 36px
+}
+#content, #content input, #content textarea {
+    color: #333;
+    font-size: 16px;
+    line-height: 24px
+}
+#content p, #content ul, #content ol, #content dd, #content pre, #content hr {
+    margin-bottom: 24px
+}
+#content ul ul, #content ol ol {
+    margin-bottom: 0
+}
+#content pre {
+    font-size: 15px;
+    line-height: 21px
+}
+#content code {
+    font-size: 13px
+}
+#content dt {
+    color: #000
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    color: #000;
+    line-height: 1.5em;
+    margin: 0 0 20px 0
+}
+#content table {
+    border: 1px solid #e7e7e7;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%
+}
+#content tr td {
+    border-top: 1px solid #e7e7e7;
+    padding: 6px 24px;
+    border-right: 1px solid #e7e7e7
+}
+form {
+    text-align: right;
+}
+input {
+    width: 200px
+}
+pre {
+    -webkit-text-size-adjust: 140%
+}
+code {
+    -webkit-text-size-adjust: 160%
+}
+@media print {
+    body {
+        background: none !important
+    }
+    #wrapper {
+        clear: both !important;
+        display: block !important;
+        float: none !important;
+        position: relative !important
+    }
+    #container {
+        margin: 0;
+        width: 100%
+    }
+    #content {
+        margin: 24pt 0 0;
+        width: 100%
+    }
+    #main {
+        display: inline
+    }
+}
+img {
+    width: 140px;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+    margin-left: calc(50% - 50px);
+    margin-bottom: 20px
+}
