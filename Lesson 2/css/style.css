@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 2500px;
+}
+
+.pagewrap {
+    width: 100%;
+    height: 45%;
+    background-image: url(../img/wallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.title-h {
+    font-family: Montserrat;
+    color: rgb(255, 142, 50);
+    font-size: 100px;
+    font-weight: 500;
+    font-weight: bold;
+    text-shadow: 2px 0 2px #ffffff;
+    text-align: center;
+    margin:0 auto;
+    padding-top: 20%;
+}
+
+#header {
+    width:100%;
+    height: 80px;
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;  
+    margin: 0 auto;
+}
+#inner-header {
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;   
+}
+
+#header-img {
+    padding-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+#nav-bar {
+    float:right;
+    height: 100%;
+}
+.nav-link {
+    height:100%;
+    display: table;
+    float: left;
+    padding: 0px 25px;
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+div a {
+    margin-top: 13%;
+}
+
+.nav-link:hover {
+    color:white;
+}
+
+#nav-bar li {
+    height: 50%;
+    display: table-cell;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+#sections {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+#one,
+#two,
+#three {
+    margin: 2% auto;
+    width:100%;
+    height: 65%;
+    font-family: Montserrat;
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#ones,
+#twos,
+#threes {
+    width:35%;
+    height: 100%;
+    float:left;
+}
+
+#ones img,
+#twos img,
+#threes img {
+    border-radius: 10%;
+}
+
+.text {
+    width:60%;
+    height: 20%;
+    margin-top: 10%;
+    float: right;
+}
+
+#video {
+    margin:15% 15% 15% ;
+    width: 70%;
+    height: 30%; 
+}
+
+#youtube{
+    border-radius: 2%;
+    margin:0 auto;
+}
+
+#footer{
+    width:40%;
+     height: 10%;
+     align-items: center;
+     margin: 5% auto;
+     font-family: Montserrat;
+     color: black;
+     font-size: 25px;
+    text-align: center;
+}
+
+#form {
+    width:60%;
+    height: 40%;
+    align-items: center;
+    margin:7% auto ;
+}
+
+#email {
+    width:100%;
+    height: 30%;
+    font-family: Montserrat;
+    color :black;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 4%;
+    border: 1px solid #000;
+
+}
+
+#submit{
+    width:30%;
+    height:30%;
+    margin: 5% auto;
+    font-family: Montserrat;
+    color :black;
+    font-size: 15px;
+    text-align: center;
+    background-color:#f7cfa9d8 ;
+    border: 1px solid #000;
+    border-radius: 4%;
+}
+
